@@ -1,4 +1,4 @@
-name = MSx Fellows
+name = GSB MSx Fellows
 description = The feature for creating the GSB MSx Fellows content type
 core = 7.x
 package = GSB
