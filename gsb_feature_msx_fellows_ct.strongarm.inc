@@ -135,5 +135,12 @@ function gsb_feature_msx_fellows_ct_strongarm() {
   $strongarm->value = 0;
   $export['node_submitted_msx_fellows'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_msx_fellows_pattern';
+  $strongarm->value = 'programs/msx/academic-experience/fellows/[node:title]';
+  $export['pathauto_node_msx_fellows_pattern'] = $strongarm;
+
   return $export;
 }
