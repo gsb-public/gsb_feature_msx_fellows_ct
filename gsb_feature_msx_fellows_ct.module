@@ -5,3 +5,59 @@
  */
 
 include_once 'gsb_feature_msx_fellows_ct.features.inc';
+
+/**
+ * Implements hook_field_formatter_info().
+ *
+ * Define our own Academic Degrees field collection formatter.
+ */
+function gsb_feature_msx_fellows_ct_field_formatter_info() {
+  return array(
+    'gsb_academic_degrees_default_format' => array(
+      'label' => t('Field Collection Academic Degrees'),
+      'field types' => array('field_collection'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_field_formatter_view().
+ *
+ * Render Academic Degrees field collection.
+ */
+function gsb_feature_msx_fellows_ct_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {
+  $element = array();
+
+  // Get a metadata wrapper for the entity.
+  $wrapper = entity_metadata_wrapper($entity_type, $entity);
+
+  // Loop through each item, adding list items.
+  foreach ($items as $delta => $item) {
+    if ($field_collection = $wrapper->field_academic_degrees->get($delta)) {
+      // Required fields are included by default.
+      $parts = array(
+        $field_collection->field_degree_type->value(),
+        $field_collection->field_university->value(),
+      );
+      // Add optional fields.
+      $year = $field_collection->field_year->value();
+      if (!empty($year)) {
+        $parts[] = format_date($year, 'year');
+      }
+      $focus = $field_collection->field_degree_focus->value();
+      if (!empty($focus)) {
+        $parts[] = $focus;
+      }
+      // Concatinate fields.
+      $degrees[] = implode(', ', $parts);
+    }
+  }
+
+  if (!empty($items)) {
+    $element[] = array(
+      '#markup' => theme('item_list', array('items' => $degrees)),
+    );
+  }
+
+  return $element;
+}

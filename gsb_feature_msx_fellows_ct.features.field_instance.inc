@@ -19,17 +19,12 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'field_collection',
+        'module' => 'gsb_feature_msx_fellows_ct',
         'settings' => array(
-          'add' => 'Add',
           'conditions' => array(),
-          'delete' => 'Delete',
-          'description' => TRUE,
-          'edit' => 'Edit',
-          'view_mode' => 'full',
         ),
-        'type' => 'field_collection_view',
-        'weight' => 9,
+        'type' => 'gsb_academic_degrees_default_format',
+        'weight' => 6,
       ),
       'featured' => array(
         'label' => 'above',
@@ -60,7 +55,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_academic_degrees',
     'label' => 'Academic Degrees',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -85,20 +80,9 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'addthis_displays',
-        'settings' => array(
-          'buttons_size' => 'addthis_16x16_style',
-          'conditions' => array(
-            0 => array(
-              'condition' => '',
-            ),
-          ),
-          'counter_orientation' => 'horizontal',
-          'extra_css' => '',
-          'share_services' => 'twitter, linkedin, facebook, google_plusone_share, email',
-        ),
-        'type' => 'addthis_basic_toolbox',
-        'weight' => 12,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 17,
       ),
       'featured' => array(
         'label' => 'above',
@@ -153,13 +137,13 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 8,
+        'weight' => 7,
       ),
       'featured' => array(
         'label' => 'above',
@@ -223,13 +207,15 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'taxonomy',
+        'label' => 'hidden',
+        'module' => 'ds',
         'settings' => array(
           'conditions' => array(),
+          'taxonomy_term_link' => 0,
+          'taxonomy_term_separator' => ', ',
         ),
-        'type' => 'taxonomy_term_reference_link',
-        'weight' => 5,
+        'type' => 'ds_taxonomy_separator',
+        'weight' => 4,
       ),
       'featured' => array(
         'label' => 'above',
@@ -287,12 +273,9 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'text_default',
-        'weight' => 2,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 14,
       ),
       'featured' => array(
         'label' => 'above',
@@ -353,15 +336,15 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '270x270',
         ),
         'type' => 'image',
-        'weight' => 10,
+        'weight' => 0,
       ),
       'featured' => array(
         'label' => 'above',
@@ -418,6 +401,64 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'node-msx_fellows-field_industry'
+  $field_instances['node-msx_fellows-field_industry'] = array(
+    'bundle' => 'msx_fellows',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 18,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'tiny' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_industry',
+    'label' => 'Industry',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'hs_taxonomy',
+      'settings' => array(
+        'maxlength_js_label' => '',
+      ),
+      'type' => 'taxonomy_hs',
+      'weight' => 17,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'node-msx_fellows-field_last_name'
   $field_instances['node-msx_fellows-field_last_name'] = array(
     'bundle' => 'msx_fellows',
@@ -427,12 +468,9 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'text_default',
-        'weight' => 4,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 16,
       ),
       'featured' => array(
         'label' => 'above',
@@ -494,13 +532,13 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 6,
+        'weight' => 5,
       ),
       'featured' => array(
         'label' => 'above',
@@ -563,12 +601,9 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'text_default',
-        'weight' => 3,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 15,
       ),
       'featured' => array(
         'label' => 'above',
@@ -622,6 +657,64 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'node-msx_fellows-field_region'
+  $field_instances['node-msx_fellows-field_region'] = array(
+    'bundle' => 'msx_fellows',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 19,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'tiny' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_region',
+    'label' => 'Region',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'hs_taxonomy',
+      'settings' => array(
+        'maxlength_js_label' => '',
+      ),
+      'type' => 'taxonomy_hs',
+      'weight' => 19,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'node-msx_fellows-field_salutation'
   $field_instances['node-msx_fellows-field_salutation'] = array(
     'bundle' => 'msx_fellows',
@@ -631,12 +724,9 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'text_default',
-        'weight' => 1,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 13,
       ),
       'featured' => array(
         'label' => 'above',
@@ -698,13 +788,13 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 7,
+        'weight' => 3,
       ),
       'featured' => array(
         'label' => 'above',
@@ -765,7 +855,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'date',
         'settings' => array(
           'conditions' => array(),
@@ -777,7 +867,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
-        'weight' => 11,
+        'weight' => 1,
       ),
       'featured' => array(
         'label' => 'above',
@@ -844,10 +934,12 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   t('Company Organization');
   t('First Name');
   t('Graduation Year');
+  t('Industry');
   t('Last Name');
   t('Location');
   t('Middle Name');
   t('Photo');
+  t('Region');
   t('Salutation');
   t('Title/Position');
 
