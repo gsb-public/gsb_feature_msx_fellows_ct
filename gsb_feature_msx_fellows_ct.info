@@ -1,4 +1,4 @@
-name = GSB MSx Fellows
+name = GSB Feature MSx Fellows
 description = The feature for creating the GSB MSx Fellows content type
 core = 7.x
 package = GSB
@@ -23,7 +23,9 @@ datestamp = 1367859870
 features[ctools][] = ds:ds:1
 features[ctools][] = strongarm:strongarm:1
 features[ds_field_settings][] = node|msx_fellows|default
+features[ds_field_settings][] = node|msx_fellows|teaser
 features[ds_layout_settings][] = node|msx_fellows|default
+features[ds_layout_settings][] = node|msx_fellows|teaser
 features[features_api][] = api:1
 features[field_instance][] = node-msx_fellows-field_academic_degrees
 features[field_instance][] = node-msx_fellows-field_addthis

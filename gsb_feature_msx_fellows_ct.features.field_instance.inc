@@ -42,7 +42,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 11,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -100,7 +100,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 15,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -161,7 +161,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 14,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -233,7 +233,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 13,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -293,7 +293,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 16,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -359,9 +359,14 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'weight' => 0,
       ),
       'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'conditions' => array(),
+          'image_link' => 'content',
+          'image_style' => '170x170',
+        ),
+        'type' => 'image',
         'weight' => 0,
       ),
       'tiny' => array(
@@ -430,7 +435,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 19,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -488,7 +493,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 18,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -553,10 +558,13 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'weight' => 0,
       ),
       'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 3,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -621,7 +629,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 17,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -686,7 +694,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 12,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -744,7 +752,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 10,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -809,10 +817,13 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'weight' => 0,
       ),
       'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 2,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -885,7 +896,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 9,
       ),
       'tiny' => array(
         'label' => 'above',
