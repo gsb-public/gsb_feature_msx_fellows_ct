@@ -333,7 +333,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   $field_instances['node-msx_fellows-field_image_single_public'] = array(
     'bundle' => 'msx_fellows',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Recommended size for uploaded images is 600x440.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -950,6 +950,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   t('Location');
   t('Middle Name');
   t('Photo');
+  t('Recommended size for uploaded images is 600x440.');
   t('Region');
   t('Salutation');
   t('Title/Position');
