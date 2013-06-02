@@ -788,6 +788,83 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'node-msx_fellows-field_search_field'
+  $field_instances['node-msx_fellows-field_search_field'] = array(
+    'bundle' => 'msx_fellows',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'concat_field',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'concat_field_blank',
+        'weight' => 20,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'tiny' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_search_field',
+    'label' => 'Search field',
+    'required' => 0,
+    'settings' => array(
+      'selected_fields' => array(
+        'concat_field_entity_label' => 'concat_field_entity_label',
+        'field_academic_degrees' => 'field_academic_degrees',
+        'field_addthis' => 0,
+        'field_body' => 'field_body',
+        'field_company_organization' => 'field_company_organization',
+        'field_first_name' => 'field_first_name',
+        'field_image_single_public' => 0,
+        'field_industry' => 'field_industry',
+        'field_last_name' => 'field_last_name',
+        'field_location' => 'field_location',
+        'field_middle_name' => 'field_middle_name',
+        'field_region' => 'field_region',
+        'field_salutation' => 'field_salutation',
+        'field_title_position_unlimited' => 'field_title_position_unlimited',
+        'field_year' => 'field_year',
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'concat_field',
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
+      'type' => 'concat_field_default',
+      'weight' => 21,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'node-msx_fellows-field_title_position_unlimited'
   $field_instances['node-msx_fellows-field_title_position_unlimited'] = array(
     'bundle' => 'msx_fellows',
@@ -953,6 +1030,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   t('Recommended size for uploaded images is 600x440.');
   t('Region');
   t('Salutation');
+  t('Search field');
   t('Title/Position');
 
   return $field_instances;
