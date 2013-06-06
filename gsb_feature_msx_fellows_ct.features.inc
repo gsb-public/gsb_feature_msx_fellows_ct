@@ -24,7 +24,7 @@ function gsb_feature_msx_fellows_ct_ctools_plugin_api() {
 function gsb_feature_msx_fellows_ct_node_info() {
   $items = array(
     'msx_fellows' => array(
-      'name' => t('MSx Fellows'),
+      'name' => t('MSx Fellow'),
       'base' => 'node_content',
       'description' => t('Add a MSx Fellow'),
       'has_title' => '1',
