@@ -380,7 +380,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_image_single_public',
     'label' => 'Photo',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
@@ -448,7 +448,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_industry',
     'label' => 'Industry',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -707,7 +707,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_region',
     'label' => 'Region',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
