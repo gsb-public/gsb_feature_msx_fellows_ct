@@ -95,13 +95,16 @@ function gsb_feature_msx_fellows_ct_strongarm() {
           'weight' => '15',
         ),
         'title' => array(
-          'weight' => '0',
+          'weight' => '1',
         ),
         'path' => array(
           'weight' => '14',
         ),
         'workbench_access' => array(
-          'weight' => '13',
+          'weight' => '0',
+        ),
+        'redirect' => array(
+          'weight' => '19',
         ),
       ),
       'display' => array(),
