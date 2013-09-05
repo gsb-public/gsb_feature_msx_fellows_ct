@@ -32,7 +32,9 @@ function gsb_feature_msx_fellows_ct_ds_field_settings_info() {
     'field_academic_degrees' => array(
       'formatter_settings' => array(
         'ft' => array(
+          'func' => 'theme_ds_field_minimal',
           'lb' => 'Education',
+          'lb-col' => TRUE,
         ),
       ),
     ),
