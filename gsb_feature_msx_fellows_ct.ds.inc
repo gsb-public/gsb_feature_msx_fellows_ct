@@ -58,11 +58,6 @@ function gsb_feature_msx_fellows_ct_ds_field_settings_info() {
         'conditions' => array(),
       ),
     ),
-    'field_image_single_public' => array(
-      'formatter_settings' => array(
-        'ft' => array(),
-      ),
-    ),
   );
   $export['node|msx_fellows|teaser'] = $ds_fieldsetting;
 
@@ -131,14 +126,19 @@ function gsb_feature_msx_fellows_ct_ds_layout_settings_info() {
         0 => 'field_image_single_public',
         1 => 'title',
         2 => 'field_title_position_unlimited',
-        3 => 'field_location',
+        3 => 'field_company_organization',
+        4 => 'field_location',
       ),
     ),
     'fields' => array(
       'field_image_single_public' => 'ds_content',
       'title' => 'ds_content',
       'field_title_position_unlimited' => 'ds_content',
+      'field_company_organization' => 'ds_content',
       'field_location' => 'ds_content',
+    ),
+    'limit' => array(
+      'field_company_organization' => '1',
     ),
     'classes' => array(),
     'wrappers' => array(
