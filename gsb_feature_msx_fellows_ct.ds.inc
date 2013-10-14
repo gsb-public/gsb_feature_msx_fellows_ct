@@ -38,6 +38,15 @@ function gsb_feature_msx_fellows_ct_ds_field_settings_info() {
         ),
       ),
     ),
+    'field_year' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'prefix' => '<div class="field-name-field-year">Class of ',
+          'suffix' => ' Fellow</div>',
+        ),
+      ),
+    ),
   );
   $export['node|msx_fellows|default'] = $ds_fieldsetting;
 
@@ -112,6 +121,8 @@ function gsb_feature_msx_fellows_ct_ds_layout_settings_info() {
     'layout_wrapper' => 'div',
     'layout_attributes' => '',
     'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
   );
   $export['node|msx_fellows|default'] = $ds_layout;
 
