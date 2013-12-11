@@ -849,7 +849,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_salutation',
-    'label' => 'Salutation',
+    'label' => 'Prefix',
     'required' => 0,
     'settings' => array(
       'linkit' => array(
@@ -1142,9 +1142,9 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   t('Location');
   t('Middle Name');
   t('Photo');
+  t('Prefix');
   t('Recommended size for uploaded images is 600x440.');
   t('Region');
-  t('Salutation');
   t('Search field');
   t('Title/Position');
 
