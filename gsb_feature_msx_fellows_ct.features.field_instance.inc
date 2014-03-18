@@ -960,6 +960,58 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'node-msx_fellows-field_submit'
+  $field_instances['node-msx_fellows-field_submit'] = array(
+    'bundle' => 'msx_fellows',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => NULL,
+        'settings' => array(),
+        'type' => 'submit_field_default',
+        'weight' => 21,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_submit',
+    'label' => 'Submit',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'submit_field',
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
+      'type' => 'submit_field',
+      'weight' => 0,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'node-msx_fellows-field_title_position_unlimited'
   $field_instances['node-msx_fellows-field_title_position_unlimited'] = array(
     'bundle' => 'msx_fellows',
@@ -1146,6 +1198,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   t('Recommended size for uploaded images is 600x440.');
   t('Region');
   t('Search field');
+  t('Submit');
   t('Title/Position');
 
   return $field_instances;
