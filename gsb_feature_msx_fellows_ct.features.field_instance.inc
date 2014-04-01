@@ -290,7 +290,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_company_organization',
-    'label' => 'Company Organization',
+    'label' => 'Company or Organization',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -791,7 +791,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_region',
-    'label' => 'Region',
+    'label' => 'Region of Interest',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -1186,7 +1186,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   t('Academic Degrees');
   t('AddThis');
   t('Bio');
-  t('Company Organization');
+  t('Company or Organization');
   t('First Name');
   t('Graduation Year');
   t('Industry');
@@ -1196,7 +1196,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   t('Photo');
   t('Prefix');
   t('Recommended size for uploaded images is 600x440.');
-  t('Region');
+  t('Region of Interest');
   t('Search field');
   t('Submit');
   t('Title/Position');
