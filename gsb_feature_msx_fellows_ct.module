@@ -36,7 +36,7 @@ function gsb_feature_msx_fellows_ct_field_formatter_view($entity_type, $entity, 
     if ($field_collection = $wrapper->field_academic_degrees->get($delta)) {
       // Required fields are included by default.
       $parts = array(
-        $field_collection->field_degree_type->value(),
+        $field_collection->field_degree_type_other->value(),
         $field_collection->field_university->value(),
       );
       // Add optional fields.
