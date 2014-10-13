@@ -791,7 +791,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_region',
-    'label' => 'Region of Interest',
+    'label' => 'Region',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -1196,7 +1196,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   t('Photo');
   t('Prefix');
   t('Recommended size for uploaded images is 600x440.');
-  t('Region of Interest');
+  t('Region');
   t('Search field');
   t('Submit');
   t('Title/Position');
