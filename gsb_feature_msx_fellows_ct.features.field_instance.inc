@@ -447,7 +447,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Photo',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'default_image' => 0,
       'file_directory' => 'person_photos',
       'file_extensions' => 'png gif jpg jpeg',
