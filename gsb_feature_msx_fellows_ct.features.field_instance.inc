@@ -67,6 +67,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Academic Degrees',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -77,64 +79,6 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
       ),
       'type' => 'field_collection_embed',
       'weight' => 11,
-    ),
-    'workbench_access_field' => 0,
-  );
-
-  // Exported field_instance: 'node-msx_fellows-field_addthis'
-  $field_instances['node-msx_fellows-field_addthis'] = array(
-    'bundle' => 'msx_fellows',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 17,
-      ),
-      'featured' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'ical' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 16,
-      ),
-      'tiny' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'ds_extras_field_template' => '',
-    'entity_type' => 'node',
-    'field_name' => 'field_addthis',
-    'label' => 'AddThis',
-    'required' => FALSE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'addthis',
-      'settings' => array(
-        'maxlength_js_label' => '',
-      ),
-      'type' => 'addthis_button_widget',
-      'weight' => 13,
     ),
     'workbench_access_field' => 0,
   );
@@ -196,6 +140,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Bio',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -293,6 +239,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Company or Organization',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -353,6 +301,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'First Name',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -448,6 +398,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'alt_field' => 1,
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_image' => 0,
       'file_directory' => 'person_photos',
       'file_extensions' => 'png gif jpg jpeg',
@@ -515,6 +467,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Industry',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -573,6 +527,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Last Name',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -664,6 +620,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Location',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -729,6 +687,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Middle Name',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -794,6 +754,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Region',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -852,6 +814,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Prefix',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -929,6 +893,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Search field',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'selected_fields' => array(
         'concat_field_entity_label' => 'concat_field_entity_label',
         'field_academic_degrees' => 'field_academic_degrees',
@@ -998,6 +964,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Submit',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1082,6 +1050,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Title/Position',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -1155,6 +1125,8 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'label' => 'Graduation Year',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_value' => 'now',
       'default_value2' => 'same',
       'default_value_code' => '',
@@ -1184,7 +1156,6 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Academic Degrees');
-  t('AddThis');
   t('Bio');
   t('Company or Organization');
   t('First Name');
