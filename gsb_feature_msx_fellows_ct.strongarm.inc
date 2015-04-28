@@ -88,6 +88,45 @@ function gsb_feature_msx_fellows_ct_strongarm() {
       'media_contact' => array(
         'custom_settings' => FALSE,
       ),
+      'act_project_by_criteria' => array(
+        'custom_settings' => FALSE,
+      ),
+      'act_project_listing' => array(
+        'custom_settings' => FALSE,
+      ),
+      'alumni_name' => array(
+        'custom_settings' => FALSE,
+      ),
+      'alumni_reunion_agenda_list' => array(
+        'custom_settings' => FALSE,
+      ),
+      'views_content_pane' => array(
+        'custom_settings' => FALSE,
+      ),
+      'alumni_featured_content' => array(
+        'custom_settings' => FALSE,
+      ),
+      'idea_story_latest_stories' => array(
+        'custom_settings' => FALSE,
+      ),
+      'idea_story_related' => array(
+        'custom_settings' => FALSE,
+      ),
+      'idea_story_top_stories' => array(
+        'custom_settings' => FALSE,
+      ),
+      'insight_featured_card' => array(
+        'custom_settings' => FALSE,
+      ),
+      'news_listing' => array(
+        'custom_settings' => FALSE,
+      ),
+      'phd_job_market_candidate' => array(
+        'custom_settings' => FALSE,
+      ),
+      'teaser_listing' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
