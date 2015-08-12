@@ -30,7 +30,6 @@ features[ds_layout_settings][] = node|msx_fellows|people_fpp
 features[ds_layout_settings][] = node|msx_fellows|teaser
 features[features_api][] = api:2
 features[field_instance][] = node-msx_fellows-field_academic_degrees
-features[field_instance][] = node-msx_fellows-field_addthis
 features[field_instance][] = node-msx_fellows-field_body
 features[field_instance][] = node-msx_fellows-field_company_organization
 features[field_instance][] = node-msx_fellows-field_first_name
