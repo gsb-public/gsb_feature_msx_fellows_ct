@@ -214,8 +214,68 @@ function gsb_feature_msx_fellows_ct_ds_field_settings_info() {
         'link' => '1',
         'wrapper' => 'h2',
         'class' => '',
-        'ft' => array(),
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
         'conditions' => array(),
+      ),
+    ),
+    'field_company_organization' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_image_single_public' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_location' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_title_position_unlimited' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
       ),
     ),
   );
@@ -344,6 +404,8 @@ function gsb_feature_msx_fellows_ct_ds_layout_settings_info() {
     'layout_wrapper' => 'div',
     'layout_attributes' => '',
     'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
   );
   $export['node|msx_fellows|teaser'] = $ds_layout;
 
