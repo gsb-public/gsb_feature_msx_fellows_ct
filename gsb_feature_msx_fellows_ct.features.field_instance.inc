@@ -10,7 +10,7 @@
 function gsb_feature_msx_fellows_ct_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-msx_fellows-field_academic_degrees'
+  // Exported field_instance: 'node-msx_fellows-field_academic_degrees'.
   $field_instances['node-msx_fellows-field_academic_degrees'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -79,7 +79,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_body'
+  // Exported field_instance: 'node-msx_fellows-field_body'.
   $field_instances['node-msx_fellows-field_body'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -157,7 +157,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_company_organization'
+  // Exported field_instance: 'node-msx_fellows-field_company_organization'.
   $field_instances['node-msx_fellows-field_company_organization'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -203,6 +203,16 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'module' => 'ds',
         'settings' => array(
           'conditions' => array(),
+          'custom_link_to_entity' => '',
+          'custom_prefix' => '',
+          'custom_reverse' => '',
+          'custom_strip_preserve' => '',
+          'custom_strip_tags' => '',
+          'custom_strtolower' => '',
+          'custom_strtoupper' => '',
+          'custom_suffix' => '',
+          'custom_trim' => '',
+          'custom_ucfirst' => '',
           'taxonomy_term_link' => 0,
           'taxonomy_term_separator' => ', ',
         ),
@@ -240,7 +250,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_first_name'
+  // Exported field_instance: 'node-msx_fellows-field_first_name'.
   $field_instances['node-msx_fellows-field_first_name'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -313,7 +323,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_image_single_public'
+  // Exported field_instance: 'node-msx_fellows-field_image_single_public'.
   $field_instances['node-msx_fellows-field_image_single_public'] = array(
     'bundle' => 'msx_fellows',
     'custom_add_another' => '',
@@ -360,6 +370,16 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
+          'custom_link_to_entity' => '',
+          'custom_prefix' => '',
+          'custom_reverse' => '',
+          'custom_strip_preserve' => '',
+          'custom_strip_tags' => '',
+          'custom_strtolower' => '',
+          'custom_strtoupper' => '',
+          'custom_suffix' => '',
+          'custom_trim' => '',
+          'custom_ucfirst' => '',
           'image_link' => 'content',
           'image_style' => '170x170',
         ),
@@ -424,7 +444,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_industry'
+  // Exported field_instance: 'node-msx_fellows-field_industry'.
   $field_instances['node-msx_fellows-field_industry'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -490,7 +510,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_last_name'
+  // Exported field_instance: 'node-msx_fellows-field_last_name'.
   $field_instances['node-msx_fellows-field_last_name'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -563,7 +583,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_location'
+  // Exported field_instance: 'node-msx_fellows-field_location'.
   $field_instances['node-msx_fellows-field_location'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -602,6 +622,16 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
+          'custom_link_to_entity' => '',
+          'custom_prefix' => '',
+          'custom_reverse' => '',
+          'custom_strip_preserve' => '',
+          'custom_strip_tags' => '',
+          'custom_strtolower' => '',
+          'custom_strtoupper' => '',
+          'custom_suffix' => '',
+          'custom_trim' => '',
+          'custom_ucfirst' => '',
         ),
         'type' => 'text_default',
         'weight' => 4,
@@ -642,7 +672,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_middle_name'
+  // Exported field_instance: 'node-msx_fellows-field_middle_name'.
   $field_instances['node-msx_fellows-field_middle_name'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -715,7 +745,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_region'
+  // Exported field_instance: 'node-msx_fellows-field_region'.
   $field_instances['node-msx_fellows-field_region'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -781,7 +811,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_salutation'
+  // Exported field_instance: 'node-msx_fellows-field_salutation'.
   $field_instances['node-msx_fellows-field_salutation'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -854,7 +884,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_search_field'
+  // Exported field_instance: 'node-msx_fellows-field_search_field'.
   $field_instances['node-msx_fellows-field_search_field'] = array(
     'bundle' => 'msx_fellows',
     'deleted' => 0,
@@ -936,7 +966,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_submit'
+  // Exported field_instance: 'node-msx_fellows-field_submit'.
   $field_instances['node-msx_fellows-field_submit'] = array(
     'bundle' => 'msx_fellows',
     'deleted' => 0,
@@ -995,7 +1025,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_title_position_unlimited'
+  // Exported field_instance: 'node-msx_fellows-field_title_position_unlimited'.
   $field_instances['node-msx_fellows-field_title_position_unlimited'] = array(
     'bundle' => 'msx_fellows',
     'default_value' => NULL,
@@ -1037,6 +1067,16 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
+          'custom_link_to_entity' => '',
+          'custom_prefix' => '',
+          'custom_reverse' => '',
+          'custom_strip_preserve' => '',
+          'custom_strip_tags' => '',
+          'custom_strtolower' => '',
+          'custom_strtoupper' => '',
+          'custom_suffix' => '',
+          'custom_trim' => '',
+          'custom_ucfirst' => '',
         ),
         'type' => 'text_default',
         'weight' => 2,
@@ -1077,7 +1117,7 @@ function gsb_feature_msx_fellows_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-msx_fellows-field_year'
+  // Exported field_instance: 'node-msx_fellows-field_year'.
   $field_instances['node-msx_fellows-field_year'] = array(
     'bundle' => 'msx_fellows',
     'deleted' => 0,
