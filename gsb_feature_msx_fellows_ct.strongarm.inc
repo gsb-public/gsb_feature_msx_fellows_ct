@@ -157,6 +157,9 @@ function gsb_feature_msx_fellows_ct_strongarm() {
         'redirect' => array(
           'weight' => '19',
         ),
+        'xmlsitemap' => array(
+          'weight' => '30',
+        ),
       ),
       'display' => array(),
     ),
@@ -221,6 +224,16 @@ function gsb_feature_msx_fellows_ct_strongarm() {
   $strongarm->name = 'workbench_moderation_default_state_msx_fellows';
   $strongarm->value = 'draft';
   $export['workbench_moderation_default_state_msx_fellows'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_settings_node_msx_fellows';
+  $strongarm->value = array(
+    'status' => '1',
+    'priority' => '0.5',
+  );
+  $export['xmlsitemap_settings_node_msx_fellows'] = $strongarm;
 
   return $export;
 }

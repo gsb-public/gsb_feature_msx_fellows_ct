@@ -37,18 +37,19 @@ function gsb_feature_msx_fellows_ct_field_formatter_view($entity_type, $entity, 
       // Required fields are included by default.
       $parts = array(
         $field_collection->field_degree_type_other->value(),
-        $field_collection->field_university->value(),
       );
+
+      $focus = $field_collection->field_degree_focus->value();
+      if (!empty($focus)) {
+        $parts[] = $focus;
+      }
+      $parts[] = $field_collection->field_university->value();
       // Add optional fields.
       $year = $field_collection->field_year->value();
       if (!empty($year)) {
         $parts[] = format_date($year, 'year');
       }
-      $focus = $field_collection->field_degree_focus->value();
-      if (!empty($focus)) {
-        $parts[] = $focus;
-      }
-      // Concatinate fields.
+      // Concatenate fields.
       $degrees[] = implode(', ', $parts);
     }
   }

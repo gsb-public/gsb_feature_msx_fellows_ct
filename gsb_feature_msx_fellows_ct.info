@@ -57,6 +57,7 @@ features[variable][] = node_submitted_msx_fellows
 features[variable][] = pathauto_node_msx_fellows_pattern
 features[variable][] = workbench_access_node_type_msx_fellows
 features[variable][] = workbench_moderation_default_state_msx_fellows
+features[variable][] = xmlsitemap_settings_node_msx_fellows
 features_exclude[dependencies][gsb_feature_msx_fellows_ct] = gsb_feature_msx_fellows_ct
 features_exclude[field_base][field_submit] = field_submit
 features_exclude[taxonomy][company_organization] = company_organization
