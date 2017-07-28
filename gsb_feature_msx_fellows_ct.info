@@ -35,6 +35,7 @@ features[field_instance][] = node-msx_fellows-field_company_organization
 features[field_instance][] = node-msx_fellows-field_first_name
 features[field_instance][] = node-msx_fellows-field_image_single_public
 features[field_instance][] = node-msx_fellows-field_industry
+features[field_instance][] = node-msx_fellows-field_instance_text
 features[field_instance][] = node-msx_fellows-field_last_name
 features[field_instance][] = node-msx_fellows-field_location
 features[field_instance][] = node-msx_fellows-field_middle_name

@@ -62,3 +62,30 @@ function gsb_feature_msx_fellows_ct_field_formatter_view($entity_type, $entity, 
 
   return $element;
 }
+
+function gsb_feature_msx_fellows_ct_form_views_content_views_panes_content_type_edit_form_alter(&$form, &$form_state, $form_id) {
+  if($form_id == 'views_content_views_panes_content_type_edit_form' && $form['#id'] == 'views-content-views-panes-content-type-edit-form' && $form_state['view']->name == 'msx_fellows') {
+   // $form['exposed']['filter-secondary']['#access'] = false;
+  }
+ 
+}
+
+/**
+ * Implements hook_node_presave().
+ */
+function gsb_feature_msx_fellows_ct_node_presave($node) {
+
+  if ($node->type != 'msx_fellows') {
+    return;
+  }
+  $node->field_instance_text['und'][0]['value'] = substr($node->field_year['und'][0]['value'],0,4);
+ 
+}
+
+function gsb_feature_msx_fellows_ct_form_msx_fellows_node_form_alter(&$form, &$form_state, $form_id) {
+  // you can access the type:
+  $type = $form['#node']->type;
+  if ($type == 'msx_fellows') { 
+    $form['field_instance_text']['#access'] = 0;
+  }
+}
