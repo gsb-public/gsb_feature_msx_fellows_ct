@@ -123,7 +123,7 @@ function gsb_feature_msx_fellows_ct_ds_field_settings_info() {
         'ft' => array(
           'func' => 'theme_ds_field_expert',
           'prefix' => '<div class="field-name-field-year">Class of ',
-          'suffix' => ' Fellow</div>',
+          'suffix' => ' </div>',
         ),
       ),
     ),
